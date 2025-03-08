@@ -1,0 +1,35 @@
+<app-stream-meeting-room (logined)="endSession()" *ngIf="logined"></app-stream-meeting-room>
+
+<div class="modal-overlay" *ngIf="!logined">
+  <div class="modal-content">
+    <form [formGroup]="loginForm" id="qwerty" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input id="username" formControlName="username" type="text" class="form-control" placeholder="Enter your username" />
+        <div *ngIf="loginForm.controls['username'].invalid && loginForm.controls['username'].touched" class="error">
+          <small *ngIf="loginForm.controls['username'].hasError('required')">Username is required.</small>
+          <small *ngIf="loginForm.controls['username'].hasError('minlength')">Username must be at least 3 characters long.</small>
+        </div>
+      </div>
+
+      <div class="form-group" *ngIf="isLoginFormActive">
+        <label for="code">Code</label>
+        <input id="code" formControlName="code" type="code" class="form-control" placeholder="Enter your code" />
+        <div *ngIf="loginForm.controls['code'].invalid && loginForm.controls['code'].touched" class="error">
+          <small *ngIf="loginForm.controls['code'].hasError('required')">Code is required.</small>
+        </div>
+      </div>
+
+      <button type="submit" *ngIf="isLoginFormActive" class="btn btn-primary" [disabled]="loginForm.invalid">Join</button>
+      <button type="submit" *ngIf="!isLoginFormActive" class="btn btn-primary" [disabled]="loginForm.invalid">Create</button>
+    </form>
+
+    <!-- Tabs to toggle between Login and Register forms, now below the buttons -->
+    <div class="tabs">
+      <button (click)="changePage(false)" id="join" [class.active]="isLoginFormActive">Join Room</button>
+      <!-- <button (click)="changePage(true)" id="create" [class.active]="!isLoginFormActive">Create Room</button> -->
+      <button id="create" [class.active]="!isLoginFormActive">Create Room</button>
+    </div>
+  </div>
+</div>
+

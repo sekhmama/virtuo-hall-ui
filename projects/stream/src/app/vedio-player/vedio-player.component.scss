@@ -1,0 +1,64 @@
+.btn{
+    border: none;
+    background: none;
+    appearance: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    font-family: Arial;
+    user-select: none;
+}
+
+// vg-player{
+//     vg-overlay-play{
+  
+//             cursor: none !important;
+//             user-select: none;
+        
+//     } 
+// }
+
+
+
+.scroll{
+    background-color: rgba(255, 255, 255, 0.174);
+
+
+    }
+
+
+
+
+#control {
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease-in-out; /* Faster transition for smoother effect */
+    user-select: none;
+}
+
+/* When hovering or focusing on the video, fade in the #fade element */
+
+#control:hover,
+#control:focus {
+    opacity: 1;
+}
+
+.btn:active{
+    transform: scale(0.9);
+}
+#speed:active{
+    transform: scale(0.9);
+}
+#play:active{
+    transform: scale(0.9);
+}
+#mute:active{
+    transform: scale(0.9);
+}
+#fullscreen:active{
+    transform: scale(0.9);
+}

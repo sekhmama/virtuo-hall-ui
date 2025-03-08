@@ -1,0 +1,47 @@
+<!-- <div style="width: 700px;height : 350px;position: relative;">
+    <h1 style="text-align:center;">Video player</h1> -->
+        <vg-player id="singleVideo3" (onPlayerReady)="onPlayerReady($event)">
+            <vg-overlay-play id="player"></vg-overlay-play>
+            <vg-buffering vgFor="singleVideo" ></vg-buffering>
+            <vg-controls id="control">
+                <vg-play-pause id="play"></vg-play-pause>
+                <vg-playback-button id="speed"></vg-playback-button>
+                
+                <vg-time-display vgProperty="current" vgFormat="mm:ss"></vg-time-display>
+                
+                <!-- Custom Controls for Forward and Backward -->
+                <!-- <div> -->
+                    <!-- <i class="fa fa-backward" style="font-size:24px"></i> -->
+                    <span class="btn" [title]="'-10s'" (click)="backward()" ><<</span>
+                    
+                    <span class="btn" [title]="'+10s'" (click)="forward()">>></span>
+                <!-- </div> -->
+                
+                <vg-scrub-bar [vgSlider]="true">
+                    <vg-scrub-bar-current-time class="scroll" [vgSlider]="true"></vg-scrub-bar-current-time>
+                    <vg-scrub-bar-buffering-time ></vg-scrub-bar-buffering-time>
+                </vg-scrub-bar>
+                <!-- <vg-scrub-bar style="pointer-events: none;"></vg-scrub-bar> -->
+                <!-- <vg-time-display vgProperty="left" vgFormat="mm:ss"></vg-time-display> -->
+                <vg-time-display vgProperty="total" vgFormat="mm:ss"></vg-time-display>
+                
+                <!-- <vg-track-selector></vg-track-selector> -->
+                <vg-mute id="mute"></vg-mute>
+                <vg-volume id="volume"></vg-volume>
+                
+                <vg-fullscreen id="fullscreen" (click)="fullScreen()"></vg-fullscreen>
+            </vg-controls>
+     
+           
+            <video #media [vgMedia]="$any(media)"  id="singleVideo" [preload]="preload" crossorigin="anonymous">
+                <!-- <source src="http://localhost:1022/uploads/movies/1eb04757-197e-4b7a-a838-f980ffd29414/index.m3u8" type="application/x-mpegURL"> -->
+                <!-- <source src="http://static.videogular.com/assets/videos/videogular.mp4" type="video/mp4">
+                <source src="http://static.videogular.com/assets/videos/videogular.ogg" type="video/ogg">
+                <source src="http://static.videogular.com/assets/videos/videogular.webm" type="video/webm">
+        
+                <track kind="subtitles" label="English" src="http://static.videogular.com/assets/subs/pale-blue-dot.vtt" srclang="en" default>
+                <track kind="subtitles" label="Español" src="http://static.videogular.com/assets/subs/pale-blue-dot-es.vtt" srclang="es"> -->
+            </video>
+            
+        </vg-player>
+<!-- </div> -->

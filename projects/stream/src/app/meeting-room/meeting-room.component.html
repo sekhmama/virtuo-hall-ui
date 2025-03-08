@@ -1,0 +1,78 @@
+
+
+<!-- <div class="app-container">
+    
+    <div class="video-main">
+        <div class="video-player">
+
+            <app-stream-vedio-player *ngIf="isVideoActive"></app-stream-vedio-player>
+        </div>
+    </div>
+
+
+    <div class="chat-container">
+        <div class="chat-header">
+            Chat
+        </div>
+        <div class="chat-body">
+
+            <div *ngFor="let message of chatMessages" class="chat-message">
+                <strong>{{ message.sender }}</strong>: {{ message.text }}
+            </div>
+        </div>
+        <div class="chat-footer">
+            <input type="text" placeholder="Type a message..." />
+            <button (click)="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <div class="controls-bar" *ngIf="isControlsVisible">
+        <button (click)="toggleMute()">Mute</button>
+        <button (click)="endCall()">End</button>
+    </div>
+</div> -->
+
+
+
+  <!-- app.component.html -->
+<div class="app-container">
+    <!-- Main Video Section -->
+    <div class="video-main">
+      <div class="video-player">
+        <!-- Main Video Player Here -->
+        <app-stream-vedio-player *ngIf="isVideoActive"></app-stream-vedio-player>
+      </div>
+    </div>
+  
+    <!-- Chat Panel -->
+    <div class="chat-container" *ngIf="isChatOpen">
+      <!-- Close Button -->
+      <button class="close-btn" (click)="toggleChat()">×</button>
+  
+      <div class="chat-header">
+        Chat
+      </div>
+      <div class="chat-body">
+        <!-- Chat messages will go here -->
+        <div *ngFor="let message of chatMessages; let i = index" class="chat-message">
+            <strong *ngIf="chatMessages[i-1]?.sender !== message.sender">{{ message.sender }}:</strong> {{ message.text }}
+        </div>
+      </div>
+      <div class="chat-footer">
+        <input (keyup.enter)="sendMessage()" id="mess" type="text" (input)="onMessage($event)" placeholder="Type a message" />
+        <button (click)="sendMessage()">Send</button>
+      </div>
+    </div>
+  
+    <!-- Control Buttons at the Bottom -->
+    <div class="controls-bar">
+      <!-- <button>Mic</button>
+      <button>Video</button> -->
+      <button (click)="toggleChat()">Chat</button>
+      <button style="background-color: red;"(click)="endCall()">End</button>
+    </div>
+  </div>
+  
+  
+  
+  
