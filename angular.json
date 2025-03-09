@@ -317,6 +317,7 @@
 						"tsConfig": "projects/stream/tsconfig.spec.json",
 						"inlineStyleLanguage": "scss",
 						"assets": [
+							"projects/stream/src/_redirects",
 							"projects/stream/src/assets",
 							{
 								"glob": "**/*",
@@ -346,7 +347,8 @@
 						"tsConfig": "projects/stream/tsconfig.app.json",
 						"inlineStyleLanguage": "scss",
 						"assets": [
-							"projects/stream/src/styles.scss",
+							"projects/stream/src/_redirects",
+							"projects/stream/src/assets",
 							{
 								"glob": "**/*",
 								"input": "projects/stream/public"
