@@ -1,6 +1,6 @@
 [build]
   publish = "dist/stream/browser"
-  command = "ng build"
+  command = "npx ng build"
   base = "/projects/stream"
 
 [[redirects]]
@@ -8,3 +8,6 @@
   to = "/projects/stream/:splat"
   status = 301
   force = true
+
+  [build.environment]
+  NODE_VERSION = "14"
