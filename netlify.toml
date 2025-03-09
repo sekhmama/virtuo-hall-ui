@@ -1,0 +1,13 @@
+[build]
+  publish = "dist/stream/browser"
+  command = "ng build stream"
+  base = "/"
+
+[[redirects]]
+  from = "/stream/*"
+  to = "/projects/stream/src/index.html"
+  status = 200
+  force = true
+
+  [build.environment]
+  NODE_VERSION = "14"
