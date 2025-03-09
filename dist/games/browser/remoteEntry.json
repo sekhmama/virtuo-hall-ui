@@ -1,0 +1,223 @@
+{
+  "name": "games",
+  "shared": [
+    {
+      "packageName": "@angular/animations",
+      "outFileName": "_angular_animations.74jfLfAuMU-dev.js",
+      "requiredVersion": "^18.2.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "18.2.13",
+      "dev": {
+        "entryPoint": "/Volumes/Projects/micro planetary system/mps/node_modules/@angular/animations/fesm2022/animations.mjs"
+      }
+    },
+    {
+      "packageName": "@angular/animations/browser",
+      "outFileName": "_angular_animations_browser.sJTtvuxtQS-dev.js",
+      "requiredVersion": "^18.2.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "18.2.13",
+      "dev": {
+        "entryPoint": "/Volumes/Projects/micro planetary system/mps/node_modules/@angular/animations/fesm2022/browser.mjs"
+      }
+    },
+    {
+      "packageName": "@angular/common",
+      "outFileName": "_angular_common.r9xxySacAV-dev.js",
+      "requiredVersion": "^18.2.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "18.2.13",
+      "dev": {
+        "entryPoint": "/Volumes/Projects/micro planetary system/mps/node_modules/@angular/common/fesm2022/common.mjs"
+      }
+    },
+    {
+      "packageName": "@angular/common/http",
+      "outFileName": "_angular_common_http.8X07kICm8V-dev.js",
+      "requiredVersion": "^18.2.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "18.2.13",
+      "dev": {
+        "entryPoint": "/Volumes/Projects/micro planetary system/mps/node_modules/@angular/common/fesm2022/http.mjs"
+      }
+    },
+    {
+      "packageName": "@angular/compiler",
+      "outFileName": "_angular_compiler.uqV2Y8heHM-dev.js",
+      "requiredVersion": "^18.2.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "18.2.13",
+      "dev": {
+        "entryPoint": "/Volumes/Projects/micro planetary system/mps/node_modules/@angular/compiler/fesm2022/compiler.mjs"
+      }
+    },
+    {
+      "packageName": "@angular/core",
+      "outFileName": "_angular_core.KplfM5UZHy-dev.js",
+      "requiredVersion": "^18.2.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "18.2.13",
+      "dev": {
+        "entryPoint": "/Volumes/Projects/micro planetary system/mps/node_modules/@angular/core/fesm2022/core.mjs"
+      }
+    },
+    {
+      "packageName": "@angular/core/event-dispatch-contract.min.js",
+      "outFileName": "_angular_core_event_dispatch_contract_min_js.I4Qh9941KX-dev.js",
+      "requiredVersion": "^18.2.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "18.2.13",
+      "dev": {
+        "entryPoint": "/Volumes/Projects/micro planetary system/mps/node_modules/@angular/core/event-dispatch-contract.min.js"
+      }
+    },
+    {
+      "packageName": "@angular/core/primitives/event-dispatch",
+      "outFileName": "_angular_core_primitives_event_dispatch.yWd9A_mycC-dev.js",
+      "requiredVersion": "^18.2.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "18.2.13",
+      "dev": {
+        "entryPoint": "/Volumes/Projects/micro planetary system/mps/node_modules/@angular/core/fesm2022/primitives/event-dispatch.mjs"
+      }
+    },
+    {
+      "packageName": "@angular/core/primitives/signals",
+      "outFileName": "_angular_core_primitives_signals.8Jho4pOkwS-dev.js",
+      "requiredVersion": "^18.2.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "18.2.13",
+      "dev": {
+        "entryPoint": "/Volumes/Projects/micro planetary system/mps/node_modules/@angular/core/fesm2022/primitives/signals.mjs"
+      }
+    },
+    {
+      "packageName": "@angular/core/rxjs-interop",
+      "outFileName": "_angular_core_rxjs_interop.c1FTKT0sXx-dev.js",
+      "requiredVersion": "^18.2.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "18.2.13",
+      "dev": {
+        "entryPoint": "/Volumes/Projects/micro planetary system/mps/node_modules/@angular/core/fesm2022/rxjs-interop.mjs"
+      }
+    },
+    {
+      "packageName": "@angular/forms",
+      "outFileName": "_angular_forms.-bNAJoc5U4-dev.js",
+      "requiredVersion": "^18.2.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "18.2.13",
+      "dev": {
+        "entryPoint": "/Volumes/Projects/micro planetary system/mps/node_modules/@angular/forms/fesm2022/forms.mjs"
+      }
+    },
+    {
+      "packageName": "@angular/platform-browser",
+      "outFileName": "_angular_platform_browser.4QX97yf1KT-dev.js",
+      "requiredVersion": "^18.2.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "18.2.13",
+      "dev": {
+        "entryPoint": "/Volumes/Projects/micro planetary system/mps/node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs"
+      }
+    },
+    {
+      "packageName": "@angular/platform-browser/animations",
+      "outFileName": "_angular_platform_browser_animations.BGVI23PeOP-dev.js",
+      "requiredVersion": "^18.2.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "18.2.13",
+      "dev": {
+        "entryPoint": "/Volumes/Projects/micro planetary system/mps/node_modules/@angular/platform-browser/fesm2022/animations.mjs"
+      }
+    },
+    {
+      "packageName": "@angular/platform-browser/animations/async",
+      "outFileName": "_angular_platform_browser_animations_async.KmNdlO7LLl-dev.js",
+      "requiredVersion": "^18.2.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "18.2.13",
+      "dev": {
+        "entryPoint": "/Volumes/Projects/micro planetary system/mps/node_modules/@angular/platform-browser/fesm2022/animations/async.mjs"
+      }
+    },
+    {
+      "packageName": "@angular/platform-browser-dynamic",
+      "outFileName": "_angular_platform_browser_dynamic.mh4daYS1hN-dev.js",
+      "requiredVersion": "^18.2.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "18.2.13",
+      "dev": {
+        "entryPoint": "/Volumes/Projects/micro planetary system/mps/node_modules/@angular/platform-browser-dynamic/fesm2022/platform-browser-dynamic.mjs"
+      }
+    },
+    {
+      "packageName": "@angular/router",
+      "outFileName": "_angular_router.CJUCvBPbiF-dev.js",
+      "requiredVersion": "^18.2.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "18.2.13",
+      "dev": {
+        "entryPoint": "/Volumes/Projects/micro planetary system/mps/node_modules/@angular/router/fesm2022/router.mjs"
+      }
+    },
+    {
+      "packageName": "rxjs",
+      "outFileName": "rxjs.3q-nb0SVOy-dev.js",
+      "requiredVersion": "~7.8.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "7.8.1",
+      "dev": {
+        "entryPoint": "/Volumes/Projects/micro planetary system/mps/node_modules/rxjs/dist/esm5/index.js"
+      }
+    },
+    {
+      "packageName": "rxjs/operators",
+      "outFileName": "rxjs_operators.krmnR9FNNv-dev.js",
+      "requiredVersion": "~7.8.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "7.8.1",
+      "dev": {
+        "entryPoint": "/Volumes/Projects/micro planetary system/mps/node_modules/rxjs/dist/esm5/operators/index.js"
+      }
+    },
+    {
+      "packageName": "tslib",
+      "outFileName": "tslib.C8jPqtl_lk-dev.js",
+      "requiredVersion": "^2.3.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "2.8.1",
+      "dev": {
+        "entryPoint": "/Volumes/Projects/micro planetary system/mps/node_modules/tslib/tslib.es6.mjs"
+      }
+    }
+  ],
+  "exposes": [
+    {
+      "key": "./Component",
+      "outFileName": "Component.js",
+      "dev": {
+        "entryPoint": "/Volumes/Projects/micro planetary system/mps/projects/games/src/app/app.component.ts"
+      }
+    }
+  ]
+}

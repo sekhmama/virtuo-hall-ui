@@ -1,0 +1,9 @@
+[build]
+base = "projects/stream"
+command = "npm run build"
+publish = "dist/stream/browser"
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
