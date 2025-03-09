@@ -1,5 +1,5 @@
 [build]
-  publish = "dist/stream/browser"
+  publish = "dist/stream"
   command = "ng build stream"
   base = "/"
 
