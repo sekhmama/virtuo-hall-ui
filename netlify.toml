@@ -1,7 +1,7 @@
 [build]
 base = "projects/stream"
 command = "npm run build"
-publish = "dist/stream/browser"
+publish = "dist/stream"
 
 [[redirects]]
 from = "/*"
