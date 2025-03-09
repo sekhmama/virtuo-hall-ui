@@ -5,7 +5,7 @@
 
 [[redirects]]
   from = "/stream/*"
-  to = "/projects/stream/browser/index.html"
+  to = "/projects/stream/index.html"
   status = 200
   force = true
 
