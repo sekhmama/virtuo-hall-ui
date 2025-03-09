@@ -1,0 +1,10 @@
+[build]
+  publish = "dist/stream/browser"
+  command = "ng build"
+  base = "/projects/stream"
+
+[[redirects]]
+  from = "/stream/*"
+  to = "/projects/stream/:splat"
+  status = 301
+  force = true
