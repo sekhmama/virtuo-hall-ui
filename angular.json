@@ -276,13 +276,17 @@
 			"architect": {
 				"build": {
 					"builder": "@angular-architects/native-federation:build",
-					"options": {},
+					"options": {
+						"outputPath": "dist/stream",
+						"index":"projects/stream/src/index.html",
+						"browser":"projects/stream/src/main.ts"
+					},
 					"configurations": {
 						"production": {
 							"fileReplacements": [
 								{
-									"replace": "src/environments/environment.ts",
-									"with": "src/environments/environment.prod.ts"
+									"replace": "projects/stream/src/environments/environment.ts",
+									"with": "projects/stream/src/environments/environment.prod.ts"
 								}
 							],
 							"target": "stream:esbuild:production"
