@@ -4,8 +4,8 @@
   base = "/"
 
 [[redirects]]
-  from = "stream/browser/*"
-  to = "stream/browser/index.html"
+  from = "/*"
+  to = "/index.html"
   status = 200
   force = true
 
