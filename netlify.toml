@@ -1,11 +1,11 @@
 [build]
-  publish = "dist/stream/browser"
+  publish = "stream/browser"
   command = "ng build stream"
   base = "/"
 
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
+  from = "stream/browser/*"
+  to = "stream/browser/index.html"
   status = 200
   force = true
 
