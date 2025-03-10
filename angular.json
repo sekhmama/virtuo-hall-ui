@@ -277,7 +277,7 @@
 				"build": {
 					"builder": "@angular-architects/native-federation:build",
 					"options": {
-						"outputPath": "dist/stream",
+						"outputPath": "dist/stream/browser",
 						"index":"projects/stream/src/index.html",
 						"browser":"projects/stream/src/main.ts"
 					},
@@ -341,7 +341,7 @@
 				"esbuild": {
 					"builder": "@angular-devkit/build-angular:application",
 					"options": {
-						"outputPath": "dist/stream",
+						"outputPath": "dist/stream/browser",
 						"index": "projects/stream/src/index.html",
 						"browser": "projects/stream/src/main.ts",
 						"polyfills": [
